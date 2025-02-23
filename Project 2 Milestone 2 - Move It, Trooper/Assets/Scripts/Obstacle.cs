@@ -10,6 +10,8 @@ public class Obstacle : MonoBehaviour
  public void OnTriggerEnter2D(Collider2D other)
 
     {
+        
+
         // Check if the other object has a Health component
         health healthComponent = other.GetComponent<health>();
 
