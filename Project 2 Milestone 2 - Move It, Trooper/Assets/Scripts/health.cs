@@ -14,18 +14,15 @@ public class health : Pawn
 
     void Update()
     {
+        // Check for death condition every frame
         if (currentHealth <= 0)
         {
-            // Get the death component
-            Death deathComponent = GetComponent<Death>();
-            if (deathComponent != null)
-            {
-                // Call Die() method to handle death
-                deathComponent.Die();
-            }
+            // Call the Die method to handle death
+            Die();
         }
     }
 
+    // Take damage and handle death
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -35,6 +32,7 @@ public class health : Pawn
         }
     }
 
+    // Heal the player up to the maximum health
     public void Heal(int healAmount)
     {
         currentHealth += healAmount;
@@ -44,18 +42,17 @@ public class health : Pawn
         }
     }
 
+    // Handle player death
     private void Die()
     {
-        // Get the death component and call Die
-        Death deathComponent = GetComponent<Death>();
-        if (deathComponent != null)
+        // Call the GameManager's LoseGame() method to end the game
+        if (GameManager.instance != null)
         {
-            deathComponent.Die();
+            GameManager.instance.LoseGame();
         }
-        else
-        {
-            Debug.Log("Object does not have a Death component.");
-            gameObject.SetActive(false); // Default behavior: disable the object
-        }
+
+        // Optionally, disable or destroy the player object after death
+        gameObject.SetActive(false);  // Disable the object (can be replaced with other actions like playing a death animation)
+        Debug.Log("Player has died!");
     }
 }
