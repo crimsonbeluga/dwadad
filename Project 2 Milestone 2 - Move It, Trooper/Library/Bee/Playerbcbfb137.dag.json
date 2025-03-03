@@ -52,110 +52,7 @@
         42,
         43,
         44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134,
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147,
-        148
+        45
       ],
       "DebugActionIndex": 0
     },
@@ -232,6 +129,42 @@
       "DebugActionIndex": 4
     },
     {
+      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/resources.assets",
+      "DisplayName": "Copying resources.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/resources.assets"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/resources.assets"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/resources.assets.resS",
+      "DisplayName": "Copying resources.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/resources.assets.resS"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/resources.assets.resS"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 6
+    },
+    {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Resources/unity_builtin_extra",
       "DisplayName": "Copying unity_builtin_extra",
       "ActionType": "CopyFiles",
@@ -247,7 +180,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 5
+      "DebugActionIndex": 7
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/RuntimeInitializeOnLoads.json",
@@ -265,7 +198,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 6
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/ScriptingAssemblies.json",
@@ -283,7 +216,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/sharedassets0.assets",
@@ -301,7 +234,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/sharedassets0.assets.resS",
@@ -319,14 +252,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 52465,
+      "PayloadLength": 52613,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "InputFlags": [],
@@ -336,7 +269,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -349,6 +282,8 @@
         "Library/PlayerDataCache/Win642/Data/globalgamemanagers.assets",
         "Library/PlayerDataCache/Win642/Data/globalgamemanagers.assets.resS",
         "Library/PlayerDataCache/Win642/Data/level0",
+        "Library/PlayerDataCache/Win642/Data/resources.assets",
+        "Library/PlayerDataCache/Win642/Data/resources.assets.resS",
         "Library/PlayerDataCache/Win642/Data/Resources/unity_builtin_extra",
         "Library/PlayerDataCache/Win642/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Win642/Data/ScriptingAssemblies.json",
@@ -428,17 +363,17 @@
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
@@ -1142,6 +1077,8 @@
         0,
         0,
         0,
+        0,
+        0,
         2,
         2,
         2,
@@ -1185,11 +1122,11 @@
         0
       ],
       "ToBuildDependencies": [
-        10
+        12
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/boot.config",
@@ -1208,32 +1145,32 @@
         2
       ],
       "ToBuildDependencies": [
-        11
+        13
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 14
     },
     {
-      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12219155326939789599.rsp",
-      "DisplayName": "Writing 12219155326939789599.rsp",
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/17430555790535498399.rsp",
+      "DisplayName": "Writing 17430555790535498399.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 52638,
-      "PayloadLength": 76279,
+      "PayloadOffset": 52786,
+      "PayloadLength": 76366,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"C:/Program",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/rsp/12219155326939789599.rsp"
+        "Library/Bee/artifacts/rsp/17430555790535498399.rsp"
       ],
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 15
     },
     {
-      "Annotation": "UnityLinker C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/artifacts/unitylinker_dwek.traceevents",
+      "Annotation": "UnityLinker C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/artifacts/unitylinker_dwek.traceevents",
       "DisplayName": "Code-stripping Assemblies with UnityLinker",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.34f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" @\"Library\\Bee\\artifacts\\rsp\\12219155326939789599.rsp\"",
-      "ProfilerOutput": "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/artifacts/unitylinker_dwek.traceevents",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.34f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" @\"Library\\Bee\\artifacts\\rsp\\17430555790535498399.rsp\"",
+      "ProfilerOutput": "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/artifacts/unitylinker_dwek.traceevents",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AMDModule.dll",
@@ -1309,17 +1246,17 @@
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/PackageCache/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
@@ -1603,10 +1540,10 @@
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/cscompmgd.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/monodoc.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/artifacts/UnityLinkerInputs/TypesInScenes.xml",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/artifacts/UnityLinkerInputs/SerializedTypes.xml",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Temp/InputSystemLink.xml",
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/artifacts/UnityLinkerInputs/TypesInScenes.xml",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/artifacts/UnityLinkerInputs/SerializedTypes.xml",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Temp/InputSystemLink.xml",
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/modules.asset",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.dll",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.xml",
@@ -1870,7 +1807,7 @@
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/il2cpp/build/deploy/UnityLinker.exe",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/il2cpp/build/deploy/UnityLinker.runtimeconfig.json",
         "C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/il2cpp/build/deploy/WindowsBase.dll",
-        "Library/Bee/artifacts/rsp/12219155326939789599.rsp"
+        "Library/Bee/artifacts/rsp/17430555790535498399.rsp"
       ],
       "InputFlags": [
         0,
@@ -2511,7 +2448,7 @@
         8
       ],
       "Outputs": [
-        "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/artifacts/unitylinker_dwek.traceevents"
+        "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/artifacts/unitylinker_dwek.traceevents"
       ],
       "OutputFlags": [
         0
@@ -2523,7 +2460,7 @@
         0
       ],
       "ToBuildDependencies": [
-        13
+        15
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -2549,2239 +2486,34 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 14
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Assembly-CSharp.dll",
-      "DisplayName": "Copying Assembly-CSharp.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Assembly-CSharp.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Assembly-CSharp.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 15
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Mono.Security.dll",
-      "DisplayName": "Copying Mono.Security.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mono.Security.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Mono.Security.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
       "DebugActionIndex": 16
     },
     {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/mscorlib.dll",
-      "DisplayName": "Copying mscorlib.dll",
+      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/dummy.dll",
+      "DisplayName": "Copying dummy.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/mscorlib.dll"
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/dummy.dll"
       ],
       "InputFlags": [
         0
       ],
       "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/mscorlib.dll"
+        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/dummy.dll"
       ],
       "OutputFlags": [
         2
       ],
       "ToBuildDependencies": [
-        14
+        16
       ],
       "DebugActionIndex": 17
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/netstandard.dll",
-      "DisplayName": "Copying netstandard.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/netstandard.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/netstandard.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 18
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.ComponentModel.Composition.dll",
-      "DisplayName": "Copying System.ComponentModel.Composition.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.ComponentModel.Composition.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 19
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Configuration.dll",
-      "DisplayName": "Copying System.Configuration.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Configuration.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Configuration.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 20
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Core.dll",
-      "DisplayName": "Copying System.Core.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Core.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Core.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 21
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Data.DataSetExtensions.dll",
-      "DisplayName": "Copying System.Data.DataSetExtensions.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Data.DataSetExtensions.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Data.DataSetExtensions.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 22
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Data.dll",
-      "DisplayName": "Copying System.Data.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Data.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Data.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 23
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.dll",
-      "DisplayName": "Copying System.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 24
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Drawing.dll",
-      "DisplayName": "Copying System.Drawing.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Drawing.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Drawing.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 25
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.EnterpriseServices.dll",
-      "DisplayName": "Copying System.EnterpriseServices.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.EnterpriseServices.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.EnterpriseServices.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 26
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.IO.Compression.dll",
-      "DisplayName": "Copying System.IO.Compression.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.IO.Compression.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.IO.Compression.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 27
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.IO.Compression.FileSystem.dll",
-      "DisplayName": "Copying System.IO.Compression.FileSystem.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.IO.Compression.FileSystem.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.IO.Compression.FileSystem.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 28
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Net.Http.dll",
-      "DisplayName": "Copying System.Net.Http.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Net.Http.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Net.Http.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 29
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Numerics.dll",
-      "DisplayName": "Copying System.Numerics.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Numerics.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Numerics.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 30
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Runtime.Serialization.dll",
-      "DisplayName": "Copying System.Runtime.Serialization.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Runtime.Serialization.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Runtime.Serialization.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 31
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Security.dll",
-      "DisplayName": "Copying System.Security.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Security.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Security.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 32
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.ServiceModel.Internals.dll",
-      "DisplayName": "Copying System.ServiceModel.Internals.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.ServiceModel.Internals.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.ServiceModel.Internals.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 33
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Transactions.dll",
-      "DisplayName": "Copying System.Transactions.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Transactions.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Transactions.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 34
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Xml.dll",
-      "DisplayName": "Copying System.Xml.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Xml.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Xml.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 35
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Xml.Linq.dll",
-      "DisplayName": "Copying System.Xml.Linq.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Xml.Linq.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/System.Xml.Linq.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 36
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.InputSystem.dll",
-      "DisplayName": "Copying Unity.InputSystem.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.InputSystem.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.InputSystem.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 37
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.InputSystem.ForUI.dll",
-      "DisplayName": "Copying Unity.InputSystem.ForUI.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.InputSystem.ForUI.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.InputSystem.ForUI.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 38
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.Multiplayer.Center.Common.dll",
-      "DisplayName": "Copying Unity.Multiplayer.Center.Common.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Multiplayer.Center.Common.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.Multiplayer.Center.Common.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 39
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.TextMeshPro.dll",
-      "DisplayName": "Copying Unity.TextMeshPro.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.TextMeshPro.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 40
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.Timeline.dll",
-      "DisplayName": "Copying Unity.Timeline.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Timeline.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.Timeline.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 41
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
-      "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Antlr3.Runtime.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 42
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.Core.dll",
-      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Core.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.Core.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 43
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.Flow.dll",
-      "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.Flow.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.Flow.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 44
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.State.dll",
-      "DisplayName": "Copying Unity.VisualScripting.State.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.VisualScripting.State.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/Unity.VisualScripting.State.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 45
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AccessibilityModule.dll",
-      "DisplayName": "Copying UnityEngine.AccessibilityModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AccessibilityModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AccessibilityModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 46
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AIModule.dll",
-      "DisplayName": "Copying UnityEngine.AIModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AIModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AIModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 47
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AMDModule.dll",
-      "DisplayName": "Copying UnityEngine.AMDModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AMDModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AMDModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 48
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AndroidJNIModule.dll",
-      "DisplayName": "Copying UnityEngine.AndroidJNIModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AndroidJNIModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 49
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AnimationModule.dll",
-      "DisplayName": "Copying UnityEngine.AnimationModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AnimationModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 50
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ARModule.dll",
-      "DisplayName": "Copying UnityEngine.ARModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ARModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ARModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 51
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AssetBundleModule.dll",
-      "DisplayName": "Copying UnityEngine.AssetBundleModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AssetBundleModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AssetBundleModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 52
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AudioModule.dll",
-      "DisplayName": "Copying UnityEngine.AudioModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AudioModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.AudioModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 53
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ClothModule.dll",
-      "DisplayName": "Copying UnityEngine.ClothModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClothModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ClothModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 54
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ClusterInputModule.dll",
-      "DisplayName": "Copying UnityEngine.ClusterInputModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClusterInputModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ClusterInputModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 55
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ClusterRendererModule.dll",
-      "DisplayName": "Copying UnityEngine.ClusterRendererModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ClusterRendererModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ClusterRendererModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 56
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ContentLoadModule.dll",
-      "DisplayName": "Copying UnityEngine.ContentLoadModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ContentLoadModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ContentLoadModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 57
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.CoreModule.dll",
-      "DisplayName": "Copying UnityEngine.CoreModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.CoreModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 58
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.CrashReportingModule.dll",
-      "DisplayName": "Copying UnityEngine.CrashReportingModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CrashReportingModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.CrashReportingModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 59
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.DirectorModule.dll",
-      "DisplayName": "Copying UnityEngine.DirectorModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DirectorModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.DirectorModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 60
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.dll",
-      "DisplayName": "Copying UnityEngine.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 61
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.DSPGraphModule.dll",
-      "DisplayName": "Copying UnityEngine.DSPGraphModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DSPGraphModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.DSPGraphModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 62
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GameCenterModule.dll",
-      "DisplayName": "Copying UnityEngine.GameCenterModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GameCenterModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GameCenterModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 63
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GIModule.dll",
-      "DisplayName": "Copying UnityEngine.GIModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GIModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GIModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 64
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
-      "DisplayName": "Copying UnityEngine.GraphicsStateCollectionSerializerModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 65
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GridModule.dll",
-      "DisplayName": "Copying UnityEngine.GridModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GridModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.GridModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 66
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
-      "DisplayName": "Copying UnityEngine.HierarchyCoreModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.HierarchyCoreModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.HierarchyCoreModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 67
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.HotReloadModule.dll",
-      "DisplayName": "Copying UnityEngine.HotReloadModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.HotReloadModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.HotReloadModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 68
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ImageConversionModule.dll",
-      "DisplayName": "Copying UnityEngine.ImageConversionModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ImageConversionModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ImageConversionModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 69
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.IMGUIModule.dll",
-      "DisplayName": "Copying UnityEngine.IMGUIModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.IMGUIModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 70
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.InputForUIModule.dll",
-      "DisplayName": "Copying UnityEngine.InputForUIModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputForUIModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.InputForUIModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 71
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.InputLegacyModule.dll",
-      "DisplayName": "Copying UnityEngine.InputLegacyModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputLegacyModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.InputLegacyModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 72
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.InputModule.dll",
-      "DisplayName": "Copying UnityEngine.InputModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.InputModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 73
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.JSONSerializeModule.dll",
-      "DisplayName": "Copying UnityEngine.JSONSerializeModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.JSONSerializeModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.JSONSerializeModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 74
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.LocalizationModule.dll",
-      "DisplayName": "Copying UnityEngine.LocalizationModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.LocalizationModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.LocalizationModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 75
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.MarshallingModule.dll",
-      "DisplayName": "Copying UnityEngine.MarshallingModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.MarshallingModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.MarshallingModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 76
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.MultiplayerModule.dll",
-      "DisplayName": "Copying UnityEngine.MultiplayerModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.MultiplayerModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.MultiplayerModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 77
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.NVIDIAModule.dll",
-      "DisplayName": "Copying UnityEngine.NVIDIAModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.NVIDIAModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.NVIDIAModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 78
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ParticleSystemModule.dll",
-      "DisplayName": "Copying UnityEngine.ParticleSystemModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ParticleSystemModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 79
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
-      "DisplayName": "Copying UnityEngine.PerformanceReportingModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PerformanceReportingModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 80
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.Physics2DModule.dll",
-      "DisplayName": "Copying UnityEngine.Physics2DModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.Physics2DModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 81
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.PhysicsModule.dll",
-      "DisplayName": "Copying UnityEngine.PhysicsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.PhysicsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 82
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.PropertiesModule.dll",
-      "DisplayName": "Copying UnityEngine.PropertiesModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.PropertiesModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 83
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
-      "DisplayName": "Copying UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 84
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
-      "DisplayName": "Copying UnityEngine.ScreenCaptureModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ScreenCaptureModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 85
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
-      "DisplayName": "Copying UnityEngine.ShaderVariantAnalyticsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ShaderVariantAnalyticsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 86
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SharedInternalsModule.dll",
-      "DisplayName": "Copying UnityEngine.SharedInternalsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SharedInternalsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SharedInternalsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 87
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SpriteMaskModule.dll",
-      "DisplayName": "Copying UnityEngine.SpriteMaskModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteMaskModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SpriteMaskModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 88
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SpriteShapeModule.dll",
-      "DisplayName": "Copying UnityEngine.SpriteShapeModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SpriteShapeModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SpriteShapeModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 89
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.StreamingModule.dll",
-      "DisplayName": "Copying UnityEngine.StreamingModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.StreamingModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.StreamingModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 90
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SubstanceModule.dll",
-      "DisplayName": "Copying UnityEngine.SubstanceModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubstanceModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SubstanceModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 91
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SubsystemsModule.dll",
-      "DisplayName": "Copying UnityEngine.SubsystemsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubsystemsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.SubsystemsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 92
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TerrainModule.dll",
-      "DisplayName": "Copying UnityEngine.TerrainModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TerrainModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 93
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
-      "DisplayName": "Copying UnityEngine.TerrainPhysicsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainPhysicsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 94
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
-      "DisplayName": "Copying UnityEngine.TextCoreFontEngineModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 95
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
-      "DisplayName": "Copying UnityEngine.TextCoreTextEngineModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 96
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TextRenderingModule.dll",
-      "DisplayName": "Copying UnityEngine.TextRenderingModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextRenderingModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TextRenderingModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 97
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TilemapModule.dll",
-      "DisplayName": "Copying UnityEngine.TilemapModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TilemapModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TilemapModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 98
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TLSModule.dll",
-      "DisplayName": "Copying UnityEngine.TLSModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TLSModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.TLSModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 99
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UI.dll",
-      "DisplayName": "Copying UnityEngine.UI.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UI.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UI.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 100
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UIElementsModule.dll",
-      "DisplayName": "Copying UnityEngine.UIElementsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UIElementsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 101
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UIModule.dll",
-      "DisplayName": "Copying UnityEngine.UIModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UIModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 102
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UmbraModule.dll",
-      "DisplayName": "Copying UnityEngine.UmbraModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UmbraModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UmbraModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 103
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityAnalyticsCommonModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsCommonModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 104
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityAnalyticsModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 105
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityConnectModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityConnectModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityConnectModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityConnectModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 106
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityCurlModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityCurlModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityCurlModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityCurlModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 107
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityTestProtocolModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityTestProtocolModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 108
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestAssetBundleModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAssetBundleModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 109
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestAudioModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAudioModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 110
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 111
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestTextureModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestTextureModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 112
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
-      "DisplayName": "Copying UnityEngine.UnityWebRequestWWWModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestWWWModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 113
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VehiclesModule.dll",
-      "DisplayName": "Copying UnityEngine.VehiclesModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VehiclesModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VehiclesModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 114
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VFXModule.dll",
-      "DisplayName": "Copying UnityEngine.VFXModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VFXModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VFXModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 115
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VideoModule.dll",
-      "DisplayName": "Copying UnityEngine.VideoModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VideoModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VideoModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 116
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
-      "DisplayName": "Copying UnityEngine.VirtualTexturingModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VirtualTexturingModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 117
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VRModule.dll",
-      "DisplayName": "Copying UnityEngine.VRModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VRModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.VRModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 118
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.WindModule.dll",
-      "DisplayName": "Copying UnityEngine.WindModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.WindModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.WindModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 119
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.XRModule.dll",
-      "DisplayName": "Copying UnityEngine.XRModule.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.XRModule.dll"
-      ],
-      "InputFlags": [
-        0
-      ],
-      "Outputs": [
-        "C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Managed/UnityEngine.XRModule.dll"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "ToBuildDependencies": [
-        14
-      ],
-      "DebugActionIndex": 120
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 129006,
+      "PayloadOffset": 129241,
       "PayloadLength": 42,
       "PayloadDebugContentSnippet": "DefaultCompany\ni cant figure t",
       "Inputs": [],
@@ -4792,7 +2524,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/app.info",
@@ -4811,9 +2543,9 @@
         2
       ],
       "ToBuildDependencies": [
-        121
+        18
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out_Data/Resources/unity default resources",
@@ -4831,7 +2563,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/i cant figure this shit out.exe",
@@ -4849,7 +2581,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -4867,7 +2599,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -4885,7 +2617,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -4903,7 +2635,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -4921,7 +2653,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -4939,7 +2671,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -4957,7 +2689,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -4975,7 +2707,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -4993,7 +2725,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -5011,7 +2743,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -5029,7 +2761,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -5047,7 +2779,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -5065,7 +2797,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -5083,7 +2815,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -5101,7 +2833,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -5119,7 +2851,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -5137,7 +2869,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -5155,7 +2887,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -5173,7 +2905,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/config",
@@ -5191,7 +2923,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -5209,7 +2941,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/UnityCrashHandler64.exe",
@@ -5227,7 +2959,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/UnityPlayer.dll",
@@ -5245,7 +2977,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles C:/Users/ldgre/Downloads/D3D12/D3D12Core.dll",
@@ -5263,7 +2995,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "Player",
@@ -5282,11 +3014,10 @@
         7,
         8,
         9,
-        12,
-        15,
-        16,
+        10,
+        11,
+        14,
         17,
-        18,
         19,
         20,
         21,
@@ -5312,111 +3043,9 @@
         41,
         42,
         43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134,
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147
+        44
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 45
     }
   ],
   "FileSignatures": [
@@ -5631,7 +3260,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 148
+          "Player": 45
         }
 ,  "DefaultNodes": [
     0
@@ -5639,6 +3268,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Playerbcbfb137.dag.json",
-  "PayloadsFile": "C:/Users/ldgre/OneDrive/Desktop/gpe104 sample repo/dwadad/i cant figure this shit out/Library/Bee/Playerbcbfb137.dag.payloads",
+  "PayloadsFile": "C:/Users/ldgre/OneDrive/Documents/GitHub/dwadad/Project 2 Milestone 2 - Move It, Trooper/Library/Bee/Playerbcbfb137.dag.payloads",
   "RelativePathToRoot": "../.."
 }

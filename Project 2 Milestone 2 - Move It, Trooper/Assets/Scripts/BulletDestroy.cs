@@ -2,24 +2,23 @@ using UnityEngine;
 
 public class BulletDestroy : Shooter
 {
+    // Called when the bullet collides with a trigger (meteor)
     public void OnTriggerEnter2D(Collider2D other)
     {
-        // Destroy the object the bullet collides with
+        // Destroy the object the bullet collided with
         Destroy(other.gameObject);
 
-        // Optionally destroy the bullet itself after impact
+        // Destroy the bullet itself after impact
         Destroy(gameObject);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-
+        // Initialization logic can go here
     }
 
-    // Update is called once per frame
     void Update()
     {
-
+        // Movement logic can go here if needed
     }
 }

@@ -14,11 +14,10 @@ GameObject:
   - component: {fileID: 7229786934031414170}
   - component: {fileID: 2819704776485772739}
   - component: {fileID: 5446184020720266824}
-  - component: {fileID: 3111619156146759553}
-  - component: {fileID: 21200147648916931}
+  - component: {fileID: 3016880861262776538}
   m_Layer: 0
   m_Name: meteor (1)
-  m_TagString: Untagged
+  m_TagString: Pickup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,7 +212,7 @@ PolygonCollider2D:
       - {x: 0.32, y: -0.45}
       - {x: 0.35, y: -0.39999998}
   m_UseDelaunayMesh: 0
---- !u!114 &3111619156146759553
+--- !u!114 &3016880861262776538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,20 +221,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8623596127701719669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73bc642a9aa1f3741ad719bb75f65b68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 1
-  instantKill: 0
---- !u!114 &21200147648916931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8623596127701719669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f1e92edde2f3404789a90fe7a4ddb0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 185ba1414ebaecb46a27b5ec7ef57641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -1,34 +1,52 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DeathTarget : DeathDestroy
 {
+    public TextMeshProUGUI countText; // Reference to the UI text to show the count
+    public int pointValue = 1; // Point value for destroying the target (set to 1)
+
     private void Start()
     {
-        // Register this instance with the GameManager when created
-        if (GameManager.instance != null)
+        if (countText != null)
         {
-            GameManager.instance.RegisterDeathTarget();
+            SetCountText(); // Update the score display at the start
+        }
+        else
+        {
+            Debug.LogError("countText is not assigned in the Inspector!");
         }
     }
 
-    public override void Die()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        // Unregister before destruction
-        if (GameManager.instance != null)
+        // Check if the object collided with has the "Pickup" tag
+        if (other.gameObject.CompareTag("Pickup"))
         {
-            GameManager.instance.UnregisterDeathTarget();
+            Debug.Log("Pickup detected! Adding points.");
+            // Update the score in the GameManager
+            GameManager.instance.AddScore(pointValue);
+            // Update the score display
+            SetCountText();
+            // Destroy the pickup object
+            Destroy(other.gameObject);
         }
-
-        // Call base Die() to destroy the object
-        base.Die();
     }
 
-    private void OnDestroy()
+    // Function to update the displayed score
+    void SetCountText()
     {
-        // Ensure it gets unregistered if destroyed outside Die()
-        if (GameManager.instance != null)
+        if (countText != null)
         {
-            GameManager.instance.UnregisterDeathTarget();
+            // Update the text to show the current score from GameManager
+            countText.text = "Score: " + GameManager.instance.GetScore().ToString();
+            Debug.Log("Score Updated: " + GameManager.instance.GetScore()); // Debug log to confirm score update
+        }
+        else
+        {
+            Debug.LogWarning("countText reference is missing! Score won't display correctly.");
         }
     }
 }
