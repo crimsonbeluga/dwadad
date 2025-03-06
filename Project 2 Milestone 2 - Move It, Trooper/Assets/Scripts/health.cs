@@ -1,6 +1,6 @@
-// health.cs
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections; // Required for coroutines
 
 public class health : Pawn
 {
@@ -10,10 +10,14 @@ public class health : Pawn
     public int healingAmount = 20;
     public HealthBarController healthBarController; // Reference to HealthBarController.
 
+    private SpriteRenderer spriteRenderer; // Reference to the sprite renderer
+    private Coroutine pulseCoroutine; // Stores reference to pulse coroutine
+
     void Start()
     {
         currentHealth = maxHealth;
         healthBarController.UpdateHealthBar((float)currentHealth / maxHealth); // Update health bar at start.
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Get the sprite renderer
     }
 
     void Update()
@@ -38,6 +42,13 @@ public class health : Pawn
 
         // Update the health bar after taking damage.
         healthBarController.UpdateHealthBar((float)currentHealth / maxHealth);
+
+        // Start the pulse effect
+        if (pulseCoroutine != null)
+        {
+            StopCoroutine(pulseCoroutine);
+        }
+        pulseCoroutine = StartCoroutine(PulseEffect());
     }
 
     public void Heal(int healAmount)
@@ -61,5 +72,30 @@ public class health : Pawn
 
         gameObject.SetActive(false);
         Debug.Log("Player has died!");
+    }
+
+    // Coroutine to pulse transparency
+    private IEnumerator PulseEffect()
+    {
+        float pulseDuration = 2f; // How long the pulse effect lasts
+        float pulseSpeed = 15f; // How fast it pulses
+        float elapsedTime = 0f;
+
+        while (elapsedTime < pulseDuration)
+        {
+            float alpha = Mathf.Abs(Mathf.Sin(Time.time * pulseSpeed)); // Creates a fast fade in/out effect
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = new Color(1f, 1f, 1f, alpha); // Change transparency
+            }
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Ensure the object is fully visible after pulsing
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
+        }
     }
 }
