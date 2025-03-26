@@ -46,6 +46,6 @@ public class Obstacle : MonoBehaviour
         }
 
         // Play the fire sound with the adjustable volume
-        AudioSource.PlayClipAtPoint(fireSound, transform.position, soundVolume);
+      
     }
 }

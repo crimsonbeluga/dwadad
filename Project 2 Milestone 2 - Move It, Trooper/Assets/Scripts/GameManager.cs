@@ -1,8 +1,9 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
-using UnityEngine.UI; // Required for Slider
+using UnityEngine.UI;
+using TMPro; // Required for Slider
 
 public class GameManager : MonoBehaviour
 {
@@ -11,17 +12,12 @@ public class GameManager : MonoBehaviour
     public int deathTargetCount = 0; // Keeps track of the number of "DeathTargets"
 
     // UI States
-    public GameObject TitleScreenStateObject;
-    public GameObject MainMenuStateObject;
-    public GameObject OptionsScreenStateObject;
-    public GameObject CreditsScreenStateObject;
-    public GameObject GameplayStateObject;
-    public GameObject GameOverScreenStateObject;
-
-    [SerializeField] private string SampleScene;
+    [SerializeField] private string GamePlayScene;
     [SerializeField] private string OptionsScene;
     [SerializeField] private string Main;
-   
+    [SerializeField] private string Credits;
+    [SerializeField] private string VictoryScene;
+    [SerializeField] private string GameOver;
 
     // Audio Management
     public List<AudioClip> SoundClips; // List of destroy sounds
@@ -32,6 +28,12 @@ public class GameManager : MonoBehaviour
     public Slider mainVolumeSlider;
     public Slider musicVolumeSlider;
     public Slider sfxVolumeSlider;
+
+    // Score UI Text Prefab
+    [SerializeField] private GameObject scoreUITextPrefab;  // Reference to your Text prefab for displaying score
+    private TextMeshProUGUI scoreUIText;  // Reference to the actual Text component from the prefab
+
+    public float delayTime = 2f; // Delay before game over
 
     private void Awake()
     {
@@ -49,15 +51,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     private void Start()
     {
-        score = 0;
-        Debug.Log("Score initialized to: " + score);
+        // If the scoreUIText prefab is assigned and the prefab has not been instantiated yet
+        if (scoreUIText == null && scoreUITextPrefab != null)
+        {
+            GameObject scoreUIInstance = Instantiate(scoreUITextPrefab); // Instantiate the prefab
+            scoreUIText = scoreUIInstance.GetComponent<TextMeshProUGUI>(); // Get the TextMeshProUGUI component
+            scoreUIText.text = "Score: " + score; // Initialize score text to 0
+            Debug.Log("Score UI Text instantiated and initialized.");
+        }
 
-        // Ensure UI elements are properly set up
-        if (MainMenuStateObject) MainMenuStateObject.SetActive(true);
-        if (TitleScreenStateObject) TitleScreenStateObject.SetActive(true);
+        score = 0;
+        UpdateScoreUI();  // Initialize the score UI
 
         // Load and set the volume sliders based on saved values
         LoadVolumeSettings();
@@ -106,36 +112,45 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetFloat("SFXVolume", value);
     }
 
-    private void SetInitialSliderValues()
+    // Activate Title Screen
+    public void ActivateTitleScreen()
     {
-        // Initialize sliders to current values in AudioMixer
-        float mainVolume, musicVolume, sfxVolume;
-        audioMixer.GetFloat("MainVolume", out mainVolume);
-        audioMixer.GetFloat("MusicVolume", out musicVolume);
-        audioMixer.GetFloat("SFXVolume", out sfxVolume);
-
-        // Set the sliders based on the values (converting dB to 0-1 scale)
-        mainVolumeSlider.value = Mathf.Pow(10, mainVolume / 20);
-        musicVolumeSlider.value = Mathf.Pow(10, musicVolume / 20);
-        sfxVolumeSlider.value = Mathf.Pow(10, sfxVolume / 20);
+        SceneManager.LoadScene(Main); // Load the main scene
     }
 
-    // Function to update Main Volume
-    private void UpdateMainVolumeWithDB(float value)
+    public void ActivateOptionsScreen()
     {
-        audioMixer.SetFloat("MainVolume", Mathf.Log10(value) * 20);
+        SceneManager.LoadScene(OptionsScene);
     }
 
-    // Function to update Music Volume
-    private void UpdateMusicVolumeWithDB(float value)
+    public void ActivateCreditsScreen()
     {
-        audioMixer.SetFloat("MusicVolume", Mathf.Log10(value) * 20);
+        SceneManager.LoadScene(Credits);
     }
 
-    // Function to update SFX Volume
-    private void UpdateSFXVolumeWithDB(float value)
+    public void ActivateGameplayState()
     {
-        audioMixer.SetFloat("SFXVolume", Mathf.Log10(value) * 20);
+        SceneManager.LoadScene(GamePlayScene);
+    }
+
+    public void WinGame()
+    {
+        Debug.Log("WinGame() called! Score: " + score);
+        if (score >= 1) // ✅ Check for 1 instead of 10
+        {
+            Debug.Log("Loading Victory Scene...");
+            SceneManager.LoadScene(VictoryScene); // Ensure VictoryScene is properly assigned in the inspector
+        }
+    }
+
+    public void LoseGame()
+    {
+        // Implementation for LoseGame
+    }
+
+    void Update()
+    {
+        Debug.Log("AudioListener Volume: " + AudioListener.volume);
     }
 
     public AudioClip GetBulletDestroySound()
@@ -160,113 +175,47 @@ public class GameManager : MonoBehaviour
         Debug.Log("DeathTarget removed. Total count: " + deathTargetCount);
         if (deathTargetCount == 0)
         {
-            WinGame();
+            // Do something if needed
         }
     }
 
+    // Method to add score and update the UI
     public void AddScore(int scoreToAdd)
     {
         score += scoreToAdd;
+        UpdateScoreUI();  // Update the UI whenever the score changes
         Debug.Log("Score added! Current Score: " + score);
+
+        
     }
 
+    // Method to get the current score
     public int GetScore()
     {
         return score;
     }
 
-    public void DeactivateAllStates()
+    // Method to update the UI Text for the score
+    private void UpdateScoreUI()
     {
-        if (TitleScreenStateObject) TitleScreenStateObject.SetActive(false);
-        if (OptionsScreenStateObject) OptionsScreenStateObject.SetActive(false);
-        if (CreditsScreenStateObject) CreditsScreenStateObject.SetActive(false);
-        if (GameplayStateObject) GameplayStateObject.SetActive(false);
-        if (GameOverScreenStateObject) GameOverScreenStateObject.SetActive(false);
-
-        // Keep Main Menu Active if returning to it
-        if (MainMenuStateObject && SceneManager.GetActiveScene().name != OptionsScene)
+        if (scoreUIText != null)
         {
-            MainMenuStateObject.SetActive(true);
-        }
-    }
-
-    public void ActivateTitleScreen()
-    {
-        Debug.Log("Back button clicked - Attempting to load Title Screen: " + Main);
-
-        DeactivateAllStates(); // Ensures all UI elements are reset
-
-        if (!string.IsNullOrEmpty(Main))
-        {
-            SceneManager.LoadScene(Main);
+            scoreUIText.text = "Score: " + score;
         }
         else
         {
-            Debug.LogError("Main scene name is not set! Assign it in the Inspector.");
+            Debug.LogError("Score UI Text not assigned!");
         }
     }
 
-
-
-    public void ActivateMainMenu()
+    // Exit the game
+    public void ExitGame()
     {
-        DeactivateAllStates();
-        if (MainMenuStateObject) MainMenuStateObject.SetActive(true);
-    }
+        Application.Quit();
 
-    public void ActivateOptionsScreen()
-    {
-        if (!string.IsNullOrEmpty(OptionsScene))
-        {
-            Debug.Log("Loading Options Scene: " + OptionsScene);
-            SceneManager.LoadScene(OptionsScene);
-        }
-        else
-        {
-            Debug.LogError("OptionsScene name is not set! Assign it in the Inspector.");
-        }
-    }
-
-
-    public void ActivateCreditsScreen()
-    {
-        DeactivateAllStates();
-        if (CreditsScreenStateObject) CreditsScreenStateObject.SetActive(true);
-    }
-
-    public void ActivateGameplayState()
-    {
-        DeactivateAllStates();
-        if (GameplayStateObject) GameplayStateObject.SetActive(true);
-        if (!string.IsNullOrEmpty(SampleScene))
-        {
-            Debug.Log("Loading Scene: " + SampleScene);
-            SceneManager.LoadScene(SampleScene);
-        }
-        else
-        {
-            Debug.LogError("Scene name is not set! Assign it in the Inspector.");
-        }
-    }
-
-    public void ActivateGameOverScreen()
-    {
-        DeactivateAllStates();
-        if (GameOverScreenStateObject) GameOverScreenStateObject.SetActive(true);
-    }
-
-    public void WinGame()
-    {
-        Debug.Log("You Win!");
-    }
-
-    public void LoseGame()
-    {
-        Debug.Log("You Lose!");
-    }
-
-    void Update()
-    {
-        Debug.Log("AudioListener Volume: " + AudioListener.volume);
+        // IF running in unity editor, this will stop play mode
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }

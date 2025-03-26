@@ -27,10 +27,6 @@ public class BulletDestroy : Shooter
             audioSource.PlayOneShot(destroySound);
         }
 
-        // Destroy the object the bullet collided with
-        Destroy(other.gameObject);
-
-        // Destroy the bullet itself after impact
-        Destroy(gameObject);
+      GameObject.Destroy(gameObject);
     }
 }

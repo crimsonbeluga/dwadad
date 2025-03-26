@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PawnMeteor : Pawn
 {
@@ -29,6 +30,8 @@ public class PawnMeteor : Pawn
     [Header("Three-shot Spread Settings")]
     public float shotSpread = 0.5f;
 
+    public float delayTime = 2f;
+
     private float bulletMaxDistance = 20f;
 
     private AudioSource audioSource; // AudioSource for playing sound
@@ -49,6 +52,18 @@ public class PawnMeteor : Pawn
         audioSource.rolloffMode = AudioRolloffMode.Linear; // Linear falloff (distance based)
     }
 
+    private void OnDestroy()
+    {
+        LoseGame();
+    }
+    public void LoseGame()
+    {
+
+        {
+            // If not, load the Game Over scene
+            SceneManager.LoadScene("GameOver");
+        }
+    }
     void Update()
     {
         Transform tf = transform;
@@ -133,4 +148,5 @@ public class BulletLifetime : MonoBehaviour
             Destroy(gameObject);
         }
     }
+   
 }

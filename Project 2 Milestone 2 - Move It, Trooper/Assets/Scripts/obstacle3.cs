@@ -1,45 +1,78 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class obstacle3 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float maxHealth = 100f;    // Max health of the object
+    public float damageAmount = 10f;  // Amount of damage taken per collision
+
+    private float currentHealth;      // Current health of the object
+    private Slider healthSlider;      // Reference to the UI slider that will follow the object
+
+    public GameObject sliderPrefab;   // Reference to the health slider prefab
+    public Canvas canvas;             // Reference to the Canvas in the scene
+
     void Start()
     {
-        
-    }
+        currentHealth = maxHealth;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    [Header("Obstacle Settings")]
-    public int damageAmount = 100; // Amount of damage dealt
-    public bool instantKill = false; // If true, kills any object on collision
-
-    // Called when another collider enters this object's trigger collider
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        // Check if the other object has a Health component
-        health healthComponent = other.GetComponent<health>();
-
-        if (healthComponent != null)
+        // Ensure a valid canvas is provided
+        if (canvas == null)
         {
-            if (instantKill)
+            Debug.LogError("Canvas is not assigned in the HealthManager!");
+            return;
+        }
+
+        // Spawn the health slider above the object
+        if (sliderPrefab != null)
+        {
+            // Instantiate the slider at the object's position + a bit of height
+            GameObject sliderObj = Instantiate(sliderPrefab, transform.position + Vector3.up, Quaternion.identity);
+
+            // Set the slider's parent to the Canvas
+            sliderObj.transform.SetParent(canvas.transform, false);  // False keeps the local scale/rotation unchanged
+
+            healthSlider = sliderObj.GetComponent<Slider>();
+
+            // Set the slider's max value to the max health
+            if (healthSlider != null)
             {
-                // Instantly kill the object
-                healthComponent.TakeDamage(healthComponent.currentHealth); // Assuming TakeDamage handles death
-            }
-            else
-            {
-                // Apply damage
-                healthComponent.TakeDamage(damageAmount);
+                healthSlider.maxValue = maxHealth;
+                healthSlider.value = currentHealth; // Set the initial value to current health
             }
         }
-        else
+    }
+
+    void Update()
+    {
+        // Update the slider's position to follow the object (hover just above it)
+        if (healthSlider != null)
         {
-            // Handle case where the object doesn't have a Health component
-            Debug.Log("Collided with an object without a Health component.");
+            // Convert the object's position to screen space and update the slider's position
+            healthSlider.transform.position = Camera.main.WorldToScreenPoint(transform.position + Vector3.up);
+        }
+    }
+
+    // This method is called when the object collides with another object
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Reduce health by the damage amount
+        currentHealth -= damageAmount;
+
+        // Ensure health doesn't go below 0
+        currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
+
+        // Update the health slider value
+        if (healthSlider != null)
+        {
+            healthSlider.value = currentHealth;
+        }
+
+        // Destroy the object and its slider if health reaches 0
+        if (currentHealth <= 0f)
+        {
+            Destroy(gameObject);  // Destroy the object
+            Destroy(healthSlider.gameObject);  // Destroy the slider
         }
     }
 }

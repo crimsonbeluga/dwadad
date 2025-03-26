@@ -7,6 +7,11 @@ TagManager:
   - ScoreIncreaser
   - Pickuo
   - Pickup
+  - UFO
+  - AlienMother
+  - Laser
+  - CountText
+  - BabyAlien
   layers:
   - Default
   - TransparentFX

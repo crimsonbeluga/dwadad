@@ -39,7 +39,7 @@ public class MeteorSpawnerRight : MonoBehaviour
         Rigidbody2D meteorRb = meteor.GetComponent<Rigidbody2D>();  // Using Rigidbody2D for 2D physics
         if (meteorRb != null)
         {
-            meteorRb.velocity = new Vector2(-meteorSpeed, 0f);  // Move towards the left
+            meteorRb.linearVelocity = new Vector2(-meteorSpeed, 0f);  // Move towards the left
         }
 
         // Check if meteor has moved past X = -14, and destroy it if true
