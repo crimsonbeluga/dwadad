@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -319,23 +319,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f82d0000
+      m_SelectedIDs: 32810000
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ebafdffb0bafdff5cbcfdff04befdff86befdffba32feffa633feff0234feffd8d3feff2ad4feff1258ffff26fbffffe8800000ea8400008e890000e689000078930000d09300007ca30000eea5000046a60000
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: EnemySpawner
-        m_OriginalName: EnemySpawner
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 42576
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -925,9 +925,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -49.75526, y: 1.4075018, z: 4816.136}
+    m_Target: {x: -48.925007, y: -0.74365944, z: 4816.136}
     speed: 2
-    m_Value: {x: -49.75526, y: 1.4075018, z: 4816.136}
+    m_Value: {x: -48.925007, y: -0.74365944, z: 4816.136}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1057,7 +1057,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ldgre\OneDrive\Documents\GitHub\dwadad\Project 2 Milestone
     2 - Move It, Trooper
@@ -1075,9 +1075,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84820000
-    m_LastClickedID: 33412
-    m_ExpandedIDs: 0000000024820000ffffff7f
+    m_SelectedIDs: 86820000
+    m_LastClickedID: 33414
+    m_ExpandedIDs: 000000002a820000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1106,7 +1106,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000024820000
+    m_ExpandedIDs: 000000002a820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
