@@ -21,7 +21,7 @@ public class Bulletsettings : MonoBehaviour
 
     private void SpawnBullet(Vector3 position)
     {
-        // Instantiate the bullet 40 units to the left (subtract from the x-coordinate)
+       
         Vector3 spawnPosition = position - new Vector3(0f, 0f, 0f);
 
         GameObject bullet = Instantiate(laserPrefab, spawnPosition, transform.rotation);
