@@ -1,34 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DeathTarget : DeathDestroy
 {
-    private void Start()
-    {
-        // Register this instance with the GameManager when created
-        if (GameManager.instance != null)
-        {
-            GameManager.instance.RegisterDeathTarget();
-        }
-    }
+    public int pointValue = 1; // Point value for destroying the target (set to 1)
 
-    public override void Die()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        // Unregister before destruction
-        if (GameManager.instance != null)
+        // Check if the object collided with has the "Pickup" tag
+        if (other.gameObject.CompareTag("Pickup"))
         {
-            GameManager.instance.UnregisterDeathTarget();
-        }
-
-        // Call base Die() to destroy the object
-        base.Die();
-    }
-
-    private void OnDestroy()
-    {
-        // Ensure it gets unregistered if destroyed outside Die()
-        if (GameManager.instance != null)
-        {
-            GameManager.instance.UnregisterDeathTarget();
+            Debug.Log("Pickup detected! Adding points.");
+            // Update the score in the GameManager
+            GameManager.instance.AddScore(pointValue);  // Add score
         }
     }
 }
