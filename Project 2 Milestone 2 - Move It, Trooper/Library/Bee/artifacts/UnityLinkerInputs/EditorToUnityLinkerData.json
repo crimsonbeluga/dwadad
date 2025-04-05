@@ -2,10 +2,80 @@
     "serializedTypes": [],
     "typesInScenes": [
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AlienGettingHit",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AlienSound",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Asteroid",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Babyalienspawnhandling",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Backgroundmusic",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "BulletDestroy",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "BulletMovement",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CollisionSound",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DeathMoveToOrigin",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DeathTarget",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -16,13 +86,33 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DestroyUfO",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "EditorExtension",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EnemySpawner",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -30,8 +120,28 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GameManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Gameovermusic",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -41,13 +151,68 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "health",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "HealthBarController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "HealthManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Laser",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Meteor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MeteoriteAudioScript",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Motheralien",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -62,7 +227,13 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -78,13 +249,26 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "NewMonoBehaviourScript",
+            "fullManagedTypeName": "Pawn",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PawnMeteor",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -93,6 +277,20 @@
             "nativeClass": "PhysicsManager",
             "fullManagedTypeName": "",
             "moduleName": "Physics",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PlayerController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PresEnterToStart",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -110,6 +308,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ScoreManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ShaderNameRegistry",
             "fullManagedTypeName": "",
@@ -117,10 +322,66 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SpriteRotation",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "StreamingManager",
             "fullManagedTypeName": "",
             "moduleName": "Streaming",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshProUGUI",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UFO",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UFODamage",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -150,7 +411,13 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -190,11 +457,92 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioMixer",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioMixer",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioMixerGroup",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerGroup",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioMixerSnapshot",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerSnapshot",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioResource",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SampleClip",
+            "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioBehaviour",
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioClip",
+            "fullManagedTypeName": "UnityEngine.AudioClip",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -203,7 +551,25 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioSource",
+            "fullManagedTypeName": "UnityEngine.AudioSource",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -212,7 +578,13 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -221,7 +593,52 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider2D",
+            "fullManagedTypeName": "UnityEngine.Collider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/GamePlayScene.unity"
             ]
         },
         {
@@ -230,7 +647,13 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -239,7 +662,32 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity"
             ]
         },
         {
@@ -248,13 +696,26 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
             "managedAssemblyName": "Unity.InputSystem.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.InputSystem.InputActionAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.InputActionReference",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -280,12 +741,25 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.InputSystem.UI.InputSystemUIInputModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Light",
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -294,7 +768,13 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -303,7 +783,13 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -312,7 +798,13 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -321,7 +813,22 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PolygonCollider2D",
+            "fullManagedTypeName": "UnityEngine.PolygonCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/GamePlayScene.unity"
             ]
         },
         {
@@ -333,11 +840,26 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Renderer",
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/GamePlayScene.unity"
             ]
         },
         {
@@ -353,7 +875,22 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody2D",
+            "fullManagedTypeName": "UnityEngine.Rigidbody2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/GamePlayScene.unity"
             ]
         },
         {
@@ -362,7 +899,13 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -371,7 +914,13 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -380,7 +929,7 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/GamePlayScene.unity"
             ]
         },
         {
@@ -389,7 +938,13 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -398,7 +953,13 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -407,7 +968,13 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
         },
         {
@@ -416,8 +983,49 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene.unity"
+                "Assets/Scenes/Credits.unity",
+                "Assets/Scenes/GameOver.unity",
+                "Assets/Scenes/GamePlayScene.unity",
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/OptionsScene.unity",
+                "Assets/Scenes/PressEnterToStart.unity",
+                "Assets/Scenes/VictoryScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Button",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.CanvasScaler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Image",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Slider",
+            "moduleName": "",
+            "usedInScenes": []
         }
     ],
     "allNativeTypes": [

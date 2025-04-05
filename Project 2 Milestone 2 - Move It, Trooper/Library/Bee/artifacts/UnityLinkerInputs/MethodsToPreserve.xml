@@ -1,0 +1,16 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameManager">
+			<method name="ActivateCreditsScreen"/>
+			<method name="ActivateGameplayState"/>
+			<method name="ActivateGameplayState"/>
+			<method name="ActivateGameplayState"/>
+			<method name="ActivateOptionsScreen"/>
+			<method name="ActivateTitleScreen"/>
+			<method name="ActivateTitleScreen"/>
+			<method name="ActivateTitleScreen"/>
+			<method name="ExitGame"/>
+			<method name="ExitGame"/>
+		</type>
+	</assembly>
+</linker>
